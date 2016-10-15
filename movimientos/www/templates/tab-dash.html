@@ -1,0 +1,24 @@
+  <ion-content class="padding fondo-inicio">
+    
+    <div class="div-ingreso" ng-hide="Ingresar">
+      <h2 class="titulo-ingreso">Nombre</h2>
+      <input type="text" class="text-ingreso" ng-model="usuario.nombre" placeholder="Ingrese su nombre...">
+      <button class="button button-positive boton-ingreso" ng-click="Empezar()" ng-disabled="!usuario.nombre">Continuar</button>
+
+    </div>
+
+    <button class="button button-calm boton-grabar" on-long-press="AudioIzquierda()" on-touch-end="Detener('btnIzquierda')" ng-show="Ingresar">Audio Izquierda</button>
+    <br>
+
+    <button class="button button-calm boton-grabar" on-long-press="AudioDerecha()" on-touch-end="Detener('btnDerecha')" ng-show="Ingresar">Audio Derecha</button>
+    <br>
+
+    <button class="button button-calm boton-grabar" on-long-press="AudioAbajo()" on-touch-end="Detener('btnAbajo')" ng-show="Ingresar">Audio Abajo</button>
+    <br>
+
+    <button class="button button-calm boton-grabar" on-long-press="AudioArriba()" on-touch-end="Detener('btnArriba')" ng-show="Ingresar">Audio Arriba</button>
+    <br>
+
+    <button class="button button-calm boton-grabar" on-long-press="AudioAcostado()" on-touch-end="Detener('btnAcostado')" ng-show="Ingresar">Audio Acostado</button>
+    <br><br>
+  </ion-content>

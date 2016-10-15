@@ -1,0 +1,124 @@
+/* Empty. Add your own CSS if you like */
+/*ESTILOS AUTOR */
+
+.fondo-autor{
+  width:70%;
+  margin: 10px auto;
+}
+
+.img-perfil {
+  background-image: url("../img/yo.jpg");
+  background-position: center;
+  background-size: 150px 150px;
+  height:100px;
+  width: 100px;
+  margin:30px auto;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border:3px solid #666;
+  position: relative;
+  top:35px;
+  z-index: 4;
+}
+
+
+
+.color-fondo-autor{
+background: #abbdfd; /* Old browsers */
+background: -moz-linear-gradient(top,  #abbdfd 0%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #abbdfd 0%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #abbdfd 0%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#abbdfd',GradientType=0 ); /* IE6-9 */
+
+}
+
+.color-fondo-autor-cards{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6f9ff+0,9ee8fa+100;Blue+3D */
+background: #7c98fd; /* Old browsers */
+background: -moz-linear-gradient(top,  #7c98fd 0%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #7c98fd 0%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #7c98fd 0%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c98fd',GradientType=0 ); /* IE6-9 */
+
+}/* Empty. Add your own CSS if you like */
+
+
+/* Estilos APP */
+
+.keyboard-open .tabs{
+  display:none;
+  }
+.keyboard-open .has-tabs{
+ bottom:0;
+ }
+
+
+.fondo-inicio{
+  background-image: url("../img/fondo.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+
+.div-ingreso{
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+color:#000;
+margin: 125px auto;
+width:50%;
+height:250px;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+box-shadow: -10px 10px 5px #888888;
+-moz-box-shadow: -10px 10px 5px #888888;
+-webkit-box-shadow: -10px 10px 5px #888888;
+
+}
+
+.text-ingreso {
+  width:100%;
+  margin:20px 0;
+  background: rgb(255,164,032); /* Old browsers */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1a00', endColorstr='#00fc7e',GradientType=1 ); /* IE6-9 */
+
+  font-family: 'Indie Flower', cursive;
+  
+}
+
+.titulo-ingreso {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.boton-ingreso {
+  margin:10px 17%;
+  width:60%;
+  font-family: 'Indie Flower', cursive;
+  font-size:20px;
+}
+
+.boton-grabar{
+  margin:10px 16%;
+  width:65%;
+  font-family: 'Indie Flower', cursive;
+}
+
+
+/*MEDIA QUERIES*/
+
+
+@media (max-width: 780px) and (orientation: landscape){
+
+  .boton-grabar{
+    margin: 2px 16%;
+  }
+
+}
